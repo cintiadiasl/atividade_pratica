@@ -1,0 +1,190 @@
+/* CSS do Portfólio */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  background-color: rgba(252, 252, 252, 0.952);
+}
+
+header {
+  background-color: #000;
+  color: white;
+  padding: 10px 0;
+}
+
+.about_me {
+  width: 250%;
+}
+
+p {
+  font-size: 20px;
+  max-width: 700px;
+}
+
+h1, h2 {
+  color: #000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+nav ul li a:hover {
+  color: blue;
+  transition-duration: .2s linear;
+  text-decoration: none;
+}
+
+/*comando para que os links fiquem um ao lado do outro*/
+.container_project {
+  display: flex;
+}
+
+/*Estilização dos links que dão acesso aos projetos*/
+.project {
+  color: white;
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: #000;
+  text-align: center;
+  padding-top: 10px;
+  list-style-type: none;
+  margin-right: 100px;
+  margin-left: -40px;
+}
+
+.project:hover {
+  color: blue;
+  border: 3px solid blue;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+
+.cv {
+  padding-bottom: 20px;
+  color: white;
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #000;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.cv:hover {
+  border: 2px solid blue;
+  font-size: 16px;
+  transition-duration: 1s;
+}
+
+.project a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+/*Estilização da imagem*/
+section img {
+  width: 500px;
+  border-radius: 100%;
+  height: auto;
+  margin-right: 20px;
+  margin-left: -200px;
+  border: 5px solid #000;
+}
+
+section img:hover {
+  border: 5px solid blue;
+  padding: 0.85rem 1.35rem;
+  box-shadow: 4px 4px 5px blue;
+  transition-duration: 0.20s;
+  transform: rotateY(-180deg);
+}
+
+section h1, section h2 {
+  margin-top: 0;
+}
+
+/*Estilização do formulário*/
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+form label {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*Estilização do Botão*/
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+form button:hover {
+  border: 2px solid blue;
+  transition-duration: 1s;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+
+/*Estilização do footer*/
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
